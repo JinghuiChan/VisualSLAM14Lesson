@@ -31,12 +31,11 @@ release = '1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 import sphinx_rtd_theme
-import sphinx_material
 
 # html_theme = "sphinx_rtd_theme"
-html_theme = "sphinx_material"
+# html_theme = "sphinx_material"
 # html_theme = "yummy_sphinx_theme"
-# html_theme = "haiku"
+html_theme = "haiku"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 import recommonmark
 from recommonmark.transform import AutoStructify
