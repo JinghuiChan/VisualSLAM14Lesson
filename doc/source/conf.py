@@ -37,9 +37,9 @@ import hachibee_sphinx_theme
 # html_theme = "sphinx_rtd_theme"
 # html_theme = "sphinx_material"
 # html_theme = "yummy_sphinx_theme"
-# html_theme = "haiku"
+html_theme = "haiku"
 # html_theme = "sphinx_redactor_theme"
-html_theme = "hachibee"
+# html_theme = "hachibee"
 
 html_theme_path = [hachibee_sphinx_theme.get_html_themes_path()]
 # html_theme_path = [sphinx_redactor_theme.get_html_theme_path()]
