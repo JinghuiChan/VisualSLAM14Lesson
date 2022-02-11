@@ -30,13 +30,20 @@ release = '1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-import sphinx_rtd_theme
+# import sphinx_rtd_theme
+# import sphinx_redactor_theme
+import hachibee_sphinx_theme
 
 # html_theme = "sphinx_rtd_theme"
 # html_theme = "sphinx_material"
 # html_theme = "yummy_sphinx_theme"
-html_theme = "haiku"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+# html_theme = "haiku"
+# html_theme = "sphinx_redactor_theme"
+html_theme = "hachibee"
+
+html_theme_path = [hachibee_sphinx_theme.get_html_themes_path()]
+# html_theme_path = [sphinx_redactor_theme.get_html_theme_path()]
+#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 import recommonmark
 from recommonmark.transform import AutoStructify
 
