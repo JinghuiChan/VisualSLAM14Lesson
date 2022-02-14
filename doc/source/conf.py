@@ -31,13 +31,14 @@ release = '1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # import sphinx_rtd_theme
+import sphinx_material
 # import sphinx_redactor_theme
 # import hachibee_sphinx_theme
 
 # html_theme = "sphinx_rtd_theme"
-# html_theme = "sphinx_material"
+html_theme = "sphinx_material"
 # html_theme = "yummy_sphinx_theme"
-html_theme = "haiku"
+# html_theme = "haiku"
 # html_theme = "sphinx_redactor_theme"
 # html_theme = "hachibee"
 
