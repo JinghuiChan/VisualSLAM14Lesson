@@ -36,7 +36,7 @@ import sphinx_material
 # import hachibee_sphinx_theme
 
 # html_theme = "sphinx_rtd_theme"
-html_theme = "sphinx_material"
+# html_theme = "sphinx_material"
 # html_theme = "yummy_sphinx_theme"
 # html_theme = "haiku"
 # html_theme = "sphinx_redactor_theme"
@@ -45,6 +45,13 @@ html_theme = "sphinx_material"
 # html_theme_path = [hachibee_sphinx_theme.get_html_themes_path()]
 # html_theme_path = [sphinx_redactor_theme.get_html_theme_path()]
 # html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+# Required theme setup
+html_theme = 'sphinx_material'
+
+# Set link name generated in the top bar.
+html_title = 'VisualSLAM14Lesson'
+
 # html_theme_options = {
 #    'base_url': 'http://bashtage.github.io/sphinx-material/',
 #    'repo_url': 'https://github.com/bashtage/sphinx-material/',
