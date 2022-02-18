@@ -24,11 +24,11 @@ FORCE_CLASSIC = FORCE_CLASSIC in ("1", "true")
 
 # -- Project information -----------------------------------------------------
 
-project = "Material for Sphinx"
-html_title = "Material for Sphinx"
+project = "project - Material for Sphinx"
+html_title = "html_title"
 
-copyright = "2019, Kevin Sheppard"
-author = "Kevin Sheppard"
+copyright = "2022, Jinghui Chan"
+author = "Jinghui Chan"
 
 # The full version, including alpha/beta/rc tags
 release = LooseVersion(sphinx_material.__version__).vstring
@@ -102,7 +102,7 @@ html_theme_options = {
     "globaltoc_depth": 2,
     "color_primary": "blue",
     "color_accent": "cyan",
-    "touch_icon": "images/apple-icon-152x152.png",
+    "touch_icon": "other/apple-icon-152x152.png",
     "theme_color": "#2196f3",
     "master_doc": False,
     "nav_links": [
@@ -110,12 +110,12 @@ html_theme_options = {
         {
             "href": "https://squidfunk.github.io/mkdocs-material/",
             "internal": False,
-            "title": "Material for MkDocs",
+            "title": "nav_links title",
         },
     ],
     "heroes": {
-        "index": "A responsive Material Design theme for Sphinx sites.",
-        "customization": "Configuration options to personalize your site.",
+        "index": "heroes -- A responsive Material Design theme for Sphinx sites.",
+        "customization": "heroes -- Configuration options to personalize your site.",
     },
     "version_dropdown": True,
     "version_json": "_static/versions.json",
@@ -138,7 +138,7 @@ language = "en"
 html_last_updated_fmt = ""
 
 todo_include_todos = True
-html_favicon = "images/favicon.ico"
+html_favicon = "other/favicon.ico"
 
 html_use_index = True
 html_domain_indices = True
