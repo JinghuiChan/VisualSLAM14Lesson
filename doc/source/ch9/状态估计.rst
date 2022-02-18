@@ -12,3 +12,10 @@
 
    状态估计模型
 
+
+.. figure:: ../_static/pictures/statusEstimate/Estimate1.png
+   :figwidth: 500px
+   :target: ../_static/pictures/statusEstimate/Estimate1.png
+   :align: center
+
+   状态估计模型
