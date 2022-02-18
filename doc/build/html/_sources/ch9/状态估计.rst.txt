@@ -1,2 +1,14 @@
 状态估计
 =============================
+
+状态估计的介绍
+---------------------
+经典SLAM模型由一个运动方程和一个观测方程组成，如下式所示：
+
+.. figure:: ../_static/pictures/statusEstimate/Estimate1.png
+   :figwidth: 500px
+   :target: ../_static/pictures/statusEstimate/Estimate1.png
+   :align: center
+
+   状态估计模型
+

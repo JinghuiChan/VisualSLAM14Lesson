@@ -31,20 +31,32 @@ release = '1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # import sphinx_rtd_theme
-# import sphinx_material
+import sphinx_material
 # import sphinx_redactor_theme
 # import hachibee_sphinx_theme
 
 # html_theme = "sphinx_rtd_theme"
-# html_theme = "sphinx_material"
+html_theme = "sphinx_material"
 # html_theme = "yummy_sphinx_theme"
-html_theme = "haiku"
+# html_theme = "haiku"
 # html_theme = "sphinx_redactor_theme"
 # html_theme = "hachibee"
 
 # html_theme_path = [hachibee_sphinx_theme.get_html_themes_path()]
 # html_theme_path = [sphinx_redactor_theme.get_html_theme_path()]
 # html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+# html_theme_options = {
+#    'base_url': 'http://bashtage.github.io/sphinx-material/',
+#    'repo_url': 'https://github.com/bashtage/sphinx-material/',
+#    'repo_name': 'Material for Sphinx',
+#    'google_analytics_account': 'UA-XXXXX',
+#    'html_minify': True,
+#    'css_minify': True,
+#    'nav_title': 'Material Sphinx Demo',
+#    'logo_icon': '&#xe869',
+#    'globaltoc_depth': 2
+#}
+
 import recommonmark
 from recommonmark.transform import AutoStructify
 
